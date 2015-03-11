@@ -1,0 +1,38 @@
+config.tx_extbase.persistence.classes {
+	Tx_News_Domain_Model_News {
+		subclasses {
+			blogText = Tx_NewsExampleextension_Domain_Model_NewsBlogText
+			blogImage = Tx_NewsExampleextension_Domain_Model_NewsBlogImage
+			blogVideo = Tx_NewsExampleextension_Domain_Model_NewsBlogVideo
+			blogEvent = Tx_NewsExampleextension_Domain_Model_NewsBlogEvent
+		}
+	}
+
+	Tx_NewsExampleextension_Domain_Model_NewsBlogText {
+		mapping {
+			recordType = blogText
+			tableName = tx_news_domain_model_news
+		}
+	}
+
+	Tx_NewsExampleextension_Domain_Model_NewsBlogImage {
+		mapping {
+			recordType = blogImage
+			tableName = tx_news_domain_model_news
+		}
+	}
+
+	Tx_NewsExampleextension_Domain_Model_NewsBlogVideo {
+		mapping {
+			recordType = blogVideo
+			tableName = tx_news_domain_model_news
+		}
+	}
+
+	Tx_NewsExampleextension_Domain_Model_NewsBlogEvent {
+		mapping {
+			recordType = blogEvent
+			tableName = tx_news_domain_model_news
+		}
+	}
+}

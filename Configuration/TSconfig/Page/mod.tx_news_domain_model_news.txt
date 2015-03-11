@@ -1,0 +1,6 @@
+TCEFORM.tx_news_domain_model_news.type.addItems {
+	blogText = LLL:EXT:news_exampleextension/Resources/Private/Language/locallang_db.xlf:tx_newsexampleextension_domain_model_news.type.blogText
+	blogImage = LLL:EXT:news_exampleextension/Resources/Private/Language/locallang_db.xlf:tx_newsexampleextension_domain_model_news.type.blogImage
+	blogVideo = LLL:EXT:news_exampleextension/Resources/Private/Language/locallang_db.xlf:tx_newsexampleextension_domain_model_news.type.blogVideo
+	blogEvent = LLL:EXT:news_exampleextension/Resources/Private/Language/locallang_db.xlf:tx_newsexampleextension_domain_model_news.type.blogEvent
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-03-04T15:21:13Z" product-name="news_exampleextension">
+		<header/>
+		<body>
+			<trans-unit id="tx_newsexampleextension_domain_model_news.authorprofile">
+				<source>Author Profile</source>
+			</trans-unit>
+			<trans-unit id="tx_newsexampleextension_domain_model_news.type.blogText">
+				<source>Blog - Text Post</source>
+			</trans-unit>
+			<trans-unit id="tx_newsexampleextension_domain_model_news.type.blogImage">
+				<source>Blog - Image Post</source>
+			</trans-unit>
+			<trans-unit id="tx_newsexampleextension_domain_model_news.type.blogVideo">
+				<source>Blog - Video Post</source>
+			</trans-unit>
+			<trans-unit id="tx_newsexampleextension_domain_model_news.type.blogEvent">
+				<source>Blog - Event Post</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
