@@ -2,6 +2,14 @@
 
 This extension extends EXT:news with new types and a field "author profile" which can contain a link to any page.
 
+### List view of the news types:
+
+![Screenshot 1](/Resources/Public/Images/screenshot-1.png)
+
+### New field in the tab "Relations" of the news record:
+
+![Screenshot 1](/Resources/Public/Images/screenshot-2.png)
+
 ## Installation:
 
 - Install the extension
