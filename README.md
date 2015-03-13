@@ -24,7 +24,7 @@ This extension extends EXT:news with new types and a field "author profile" whic
 
 ## Todo:
 
-- Fix backend list view. Currently list view show type "news" for the new types.
+- Fix backend list view. Currently list view show type "news" for the new types. This is a Core bug that will probably get fixed in TYPO3 6.2.11. See [#65689](https://forge.typo3.org/issues/65689) for details. Kudos to Georg Ringer for fixing this issue.
 
 ## License and Authors
 
