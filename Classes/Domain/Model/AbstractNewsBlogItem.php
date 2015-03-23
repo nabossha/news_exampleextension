@@ -20,5 +20,28 @@ namespace KWS\NewsExampleextension\Domain\Model;
  * @package TYPO3
  * @subpackage tx_newsexampleextension
  */
-class NewsBlogEvent extends AbstractNewsBlogItem {
+abstract class AbstractNewsBlogItem extends \Tx_News_Domain_Model_News {
+	/**
+	 * @var integer
+	 */
+	protected $authorprofile;
+
+	/**
+	 * Set author profile
+	 *
+	 * @param integer $authorprofile author profile
+	 * @return void
+	 */
+	public function setAuthorprofile($authorprofile) {
+		$this->authorprofile = $authorprofile;
+	}
+
+	/**
+	 * Get author profile
+	 *
+	 * @return integer
+	 */
+	public function getAuthorprofile() {
+		return $this->authorprofile;
+	}
 }

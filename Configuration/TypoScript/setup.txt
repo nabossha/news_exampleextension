@@ -1,35 +1,35 @@
 config.tx_extbase.persistence.classes {
 	Tx_News_Domain_Model_News {
 		subclasses {
-			blogText = Tx_NewsExampleextension_Domain_Model_NewsBlogText
-			blogImage = Tx_NewsExampleextension_Domain_Model_NewsBlogImage
-			blogVideo = Tx_NewsExampleextension_Domain_Model_NewsBlogVideo
-			blogEvent = Tx_NewsExampleextension_Domain_Model_NewsBlogEvent
+			blogText = KWS\NewsExampleextension\Domain\Model\NewsBlogText
+			blogImage = KWS\NewsExampleextension\Domain\Model\NewsBlogImage
+			blogVideo = KWS\NewsExampleextension\Domain\Model\NewsBlogVideo
+			blogEvent = KWS\NewsExampleextension\Domain\Model\NewsBlogEvent
 		}
 	}
 
-	Tx_NewsExampleextension_Domain_Model_NewsBlogText {
+	KWS\NewsExampleextension\Domain\Model\NewsBlogText {
 		mapping {
 			recordType = blogText
 			tableName = tx_news_domain_model_news
 		}
 	}
 
-	Tx_NewsExampleextension_Domain_Model_NewsBlogImage {
+	KWS\NewsExampleextension\Domain\Model\NewsBlogImage {
 		mapping {
 			recordType = blogImage
 			tableName = tx_news_domain_model_news
 		}
 	}
 
-	Tx_NewsExampleextension_Domain_Model_NewsBlogVideo {
+	KWS\NewsExampleextension\Domain\Model\NewsBlogVideo {
 		mapping {
 			recordType = blogVideo
 			tableName = tx_news_domain_model_news
 		}
 	}
 
-	Tx_NewsExampleextension_Domain_Model_NewsBlogEvent {
+	KWS\NewsExampleextension\Domain\Model\NewsBlogEvent {
 		mapping {
 			recordType = blogEvent
 			tableName = tx_news_domain_model_news
