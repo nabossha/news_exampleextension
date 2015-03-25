@@ -14,6 +14,7 @@ This extension extends EXT:news with new types and a field "author profile" whic
 
 - Install the extension
 - update the database in the install tool if necessary
+- Include static TypoScript template: "Additional types for EXT:news (news_exampleextension)"
 
 ## Usage:
 
@@ -22,13 +23,15 @@ This extension extends EXT:news with new types and a field "author profile" whic
 - `{newsItem.type}` contains four new types: blogText, blogImage, blogVideo or blogEvent.
 - `{newsItem.authorprofile}` has the uid of the author profile page.
 
-## Todo:
+## Note:
 
-- Fix backend list view. Currently list view show type "news" for the new types. This is a Core bug that will probably get fixed in TYPO3 6.2.11. See [#65689](https://forge.typo3.org/issues/65689) for details. Kudos to Georg Ringer for fixing this issue.
+The list view maybe shows type "news" for all the new types. This is a core bug that got fixed in TYPO3 6.2.11. See [#65689](https://forge.typo3.org/issues/65689) for details. Kudos to Georg Ringer for fixing this issue.
 
 ## License and Authors
 
 Authors: [Peter Kraume](http://github.com/peterkraume) [(@Cybersmog)](http://twitter.com/cybersmog)
+
+Kudos to Georg Ringer and Marco Huber for their support!
 
 Copyright: 2015, Peter Kraume
 
